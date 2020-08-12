@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suma</title>
+</head>
+<body>
+  <h2>a Ver!</h2>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = cuentaPluss()">Toque Aqui.</button>
+  <p id= "demo"></p>
+</body>
+<script>
+  function cuentaPluss()
+    {
+      var number1 = parseInt(document.getElementById('num1').value);
+      var number2 = parseInt(document.getElementById('num2').value);
+      var resultado = parseInt(document.getElementById('demo').value);
+       resultado = number1 + number2;
+
+    }
+
+</script>
+</html>
