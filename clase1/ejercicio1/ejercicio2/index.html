@@ -8,7 +8,7 @@
 <body>
   <h2>Ejecutar operacion Matematica!</h2>
   <input type="text" id="texto">
-  <button type="button" onclick="document.getElementById('datoAntiguo').innerHTML = suma()">Toque Aqui.</button>
+  <button type="button" onclick="document.getElementById('datoAntiguo').innerHTML = capturarDato()">Toque Aqui.</button>
   
   <p id= "datoAntiguo">Esto se remplazara por algo mejor!</p>
 </body>
@@ -16,6 +16,7 @@
 <script>
   function capturarDato(){
     var valor = document.getElementById("texto").value;
+    return valor
   }
 </script>
 </html>
